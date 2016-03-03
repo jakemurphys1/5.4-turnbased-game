@@ -1,0 +1,7 @@
+node_modules
+.tmp
+.sass-cache
+.DS_Store
+Skirmish/Game.css
+Skirmish/Game.js
+Skirmish/Home_game.html

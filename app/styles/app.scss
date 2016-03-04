@@ -1,17 +1,174 @@
-
-// Bootstrap Variables
-$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
-
-// Import Bootstrap
-@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+body{background-color: #dedede !important;
+    font-family: "Times New Roman", Times, serif;
 }
 
-img {
-  max-width: 100%;
+#background{
+    background-repeat: no-repeat;
+    background-image: url("../images/castlebackground.png");
+    background-size: cover;
+    width:500px;
+    height:500px;
+    margin-left:50px;
+}
+
+#top{
+    background-color: #a4f2ff;
+    height:70px;
+    border:black solid 1px;
+    width:820px;
+    margin-left:50px;
+}
+
+#top p{
+    font-size:32px;
+    margin-top:-50px;
+    margin-left:500px;
+}
+
+
+
+#TEXT{
+    background-color: #756f6e;
+    width:300px;
+    height:580px;
+    margin-left:575px;
+    margin-top: -500px;
+font-size:20px;
+    border:black solid 1px;
+    overflow:scroll;
+}
+
+#TEXT ul{
+    font-size:25px;
+}
+
+#TEXT li{
+    font-size:20px;
+    Margin-top:10px;
+}
+
+
+#top{
+    font-size:30px;
+}
+
+
+#Status{
+    background-color: #756f6e;
+    width:300px;
+    height:600px;
+    margin-left:900px;
+    margin-top: -600px;
+    font-size:20px;
+    border:black solid 1px;
+}
+
+#Status ul{
+    font-size:25px;
+}
+
+#Status li{
+    font-size:20px;
+    Margin-top:10px;
+}
+
+
+.heading {
+    font-size:32px;
+    Margin-left:400px;
+    display:inline-block;
+}
+
+
+.areas{
+    background-color: #b3abac;
+    width:75px;
+    height:75px;
+    border:black solid 1px;
+    opacity:0;
+}
+
+
+
+.selected{
+  background-color: yellow;
+}
+
+.selectedUnit{
+  background-color: yellow;
+}
+
+.actions{
+    width:500px;
+    height:70px;
+    background-color: #656565;
+    margin-top: -80px;
+    margin-left: 50px;
+    border:black solid 1px;
+}
+
+.button{
+    border:black solid 1px;
+    height:30px;
+    width:110px;
+    background-color: #adadad;
+    font-size:20px;
+    margin-top:10px;
+    margin-left:10px;
+    display:inline-block;
+    text-align:center;
+}
+
+
+.unit{
+  img{
+    width:75px;
+    height:75px;
+  }
+  height:75px;
+    margin-left:-10px;
+    margin-top:-10px;
+}
+
+.Eunit{
+  img{
+    width:75px;
+    height:75px;
+  }
+    margin-left:-10px;
+    margin-top:-10px;
+}
+
+.startingicon{
+    width: 40px;
+    height:40px;
+    margin-left:35px;
+    margin-top:10px;
+}
+
+.highlight{
+    background-color:yellow;
+    opacity:1;
+}
+
+.healthbar{
+    background-color: #00c600;
+    height:10px;
+    position:absolute;
+    top:-70px;
+}
+.Ehealthbar{
+    background-color: #00c900;
+    height:10px;
+    position:absolute;
+    margin-top:40px;
+}
+
+.Effects{
+    position:absolute;
+}
+.Effects img{
+    width:80px;
+    height:80px;
+    margin-left:-20px;
 }
